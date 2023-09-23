@@ -1,0 +1,79 @@
+.subtitulo{
+    margin: 15px;
+}
+.articulo{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.a1980{
+    width: 400px; 
+    position: relative;  
+}
+.div{
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr;
+    width: 450px;
+    height: 600px;
+}
+.t1980{
+    background-color: aquamarine;
+    width: 400px;
+    height:600px;
+    position: absolute;
+    top: 112px;
+    opacity: 0;
+    transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out; 
+    text-align: center;
+    color: brown;
+}
+.div:hover .t1980 {
+    top: 310px; 
+    opacity: 0.5;
+}
+
+.div1{
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr;
+    width: 50px;
+    margin-left: 200px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+}
+.b1990{
+    width: 400px;  
+    position: relative; 
+    top: 332px;
+    left: 620px;
+}
+.t1990{
+    background-color: aquamarine;
+    width: 400px;
+    height:600px;
+    position: absolute;
+    top: 112px;
+    left: 620px;
+    opacity: 0;
+    transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out; 
+    text-align: center;
+    color: brown;
+}
+.div1:hover .t1990 {
+    top: 312px; 
+    opacity: 0.5;
+}
+.im1{
+    float: right;
+    margin: 0 0 20px 20px;
+    height: 600px;
+}
+.im2{
+    float: left;
+    margin: 429px 0 20px 0;
+    height: 600px;
+    
+}

@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+    color: rgb(25, 39, 34);
+    text-shadow: 2px 2px 1px white;
+    
+}
+.tabla{
+    background: linear-gradient(to right, rgb(101, 212, 212), rgb(117, 214, 148));
+    margin: 70px;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+th{
+    background-color :#6252cf;
+}
+tr,th,td{
+    border: 1px inset brown;
+}
+.colum{
+    border: 2px outset #dba5a5;
+    border-radius: 4px;
+    background-color: #7b6be6;
+}
+
+tr:hover {
+    background: linear-gradient(to right, rgb(212, 101, 147), rgb(170, 117, 214));
+}
